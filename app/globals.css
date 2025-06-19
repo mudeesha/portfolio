@@ -2,6 +2,24 @@
 @import "tw-animate-css";
 @import "tailwindcss/preflight";
 
+@theme {
+  /* Container settings */
+  --container-center: true;
+  --container-padding: 15px;
+  
+  /* Screens */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+  
+  /* Colors */
+  --color-primary: #1c1c22;
+  --color-accent: #00ff99;
+  --color-accent-hover: #00e187;
+}
+
+
 @tailwind utilities;
 
 @custom-variant dark (&:is(.dark *));
@@ -128,7 +146,6 @@ body {
   }
   body {
     @apply bg-background text-foreground;
-    /* @apply font-primary; */
-    font-family: "JetBrains Mono", monospace; 
+    font-family: var(--font-jetbrainsMono);
   }
 }
