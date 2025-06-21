@@ -33,6 +33,12 @@
     @apply leading-loose;
   }
 
+  .container {
+    padding: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .text-accent {
     color: var(--color-accent);
   }
