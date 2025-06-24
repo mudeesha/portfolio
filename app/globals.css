@@ -83,6 +83,21 @@
   .group:hover .text-outline {
     -webkit-text-stroke: 1px #00ff99;
   }
+
+  [data-slot="tabs-trigger"] {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  [data-slot="tabs-trigger"]:hover {
+    background-color: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
+  }
+  
+  [data-slot="tabs-trigger"][data-state="active"] {
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
 }
 
 
