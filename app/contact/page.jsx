@@ -41,7 +41,7 @@ const Contact = () => {
     return (
       <motion.section
         initial={{opacity: 0}}
-        animate={{opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}
+        animate={{opacity: 1, transition: {duration: 0.6, ease: "easeIn"},
       }}
       className="py-6 xl:py-0"
       >
