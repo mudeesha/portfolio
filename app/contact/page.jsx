@@ -43,7 +43,7 @@ const Contact = () => {
         initial={{opacity: 0}}
         animate={{opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}
       }}
-      className="py-6"
+      className="py-6 xl:py-0"
       >
         <div className="container mx-auto">
           <div className="flex flex-col xl:flex-row gap-[30px]">
@@ -52,7 +52,7 @@ const Contact = () => {
               <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                 <h3 className="text-4xl text-accent">let's work together</h3>
                 <p className="text-white/60">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi neque corrupti eaque fuga delectus unde aliquam atque non officia, cumque consequatur, dolores odit? Tempora soluta veritatis, voluptas molestias voluptate perferendis?
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi neque corrupti eaque fuga delectus unde aliquam atque non officia, cumque consequatur, dolores odit?
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import {Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import { BsArrowRight, BsGithub } from "react-icons/bs";
+import { BsArrowDownRight, BsGithub } from "react-icons/bs";
 
 import {
   Tooltip,
@@ -68,7 +68,7 @@ const Work = () => {
   }
 
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}}} className="min-h-[80vh] flex-col justify-center py-12 xl:px-0">
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}}} className="min-h-[80vh] flex-col justify-center py-12 xl:py-22 xl:px-0">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -103,7 +103,7 @@ const Work = () => {
                     <Tooltip>
 
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowRight className="text-white text-3xl group-hover:text-accent" />
+                        <BsArrowDownRight className="text-white text-3xl transition-transform duration-300 group-hover:-rotate-45 group-hover:text-accent" />
                       </TooltipTrigger>
 
                       <TooltipContent>
@@ -154,9 +154,10 @@ const Work = () => {
                 )
               })}
 
-              <WorkSliderBtns 
-                containerStyles="flex gap-2 absolute left-0 right-0 bottom-[calc(50%-22px)] justify-between px-4 z-20 xl:bottom-0 xl:right-0 xl:left-auto xl:w-max xl:justify-none" 
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+              <WorkSliderBtns
+                containerStyles="flex gap-2 absolute left-0 right-0 bottom-[calc(50%-22px)] justify-between px-4 z-20 xl:bottom-0 xl:right-0 xl:left-auto xl:w-max xl:justify-none"
+                btnStyles="group bg-white/5 hover:bg-white/10 text-white xl:bg-accent xl:hover:bg-accent-hover xl:text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all rounded-full xl:rounded-none"
+                iconsStyles="text-white group-hover:text-accent xl:text-primary xl:group-hover:text-primary transition-colors duration-300"
               />
 
             </Swiper>
