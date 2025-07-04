@@ -27,8 +27,7 @@ export default function Home() {
                 <span className="text-accent">Mudeesha Tharindu</span>
               </h1>
               <p className="max-w-[500px] mb-9 text-white/80">
-                I excel at creating elegant digital experiences and am proficient
-                in various programming languages and technologies.
+              I specialize in crafting elegant and user-centric digital experiences, with strong proficiency in a wide range of programming languages and modern technologies.
               </p>
 
               <div className="flex flex-col xl:flex-row items-center gap-8">

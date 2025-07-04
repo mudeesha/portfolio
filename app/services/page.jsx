@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, totam quibusdam? Obcaecati alias officiis nihil doloribus ab veniam quod nobis, et, saepe eius commodi, praesentium molestiae voluptatum esse aspernatur ad!",
+    description: "Development of modern, responsive websites with clean architecture and scalable codebases, optimized for performance and seamless user experience.",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, totam quibusdam? Obcaecati alias officiis nihil doloribus ab veniam quod nobis, et, saepe eius commodi, praesentium molestiae voluptatum esse aspernatur ad!",
+    description: "Design of modern, intuitive, and accessible user interfaces that align with brand identity and enhance overall user experience across devices.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, totam quibusdam? Obcaecati alias officiis nihil doloribus ab veniam quod nobis, et, saepe eius commodi, praesentium molestiae voluptatum esse aspernatur ad!",
+    title: "SEO & Analytics",
+    description: "Implementation of SEO strategies and performance tracking through analytics to enhance visibility and inform decisions.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, totam quibusdam? Obcaecati alias officiis nihil doloribus ab veniam quod nobis, et, saepe eius commodi, praesentium molestiae voluptatum esse aspernatur ad!",
+    title: "DevOps & Deployment",
+    description: "Configuration of deployment pipelines, version control, and infrastructure automation to ensure smooth and secure releases.",
     href: "",
   },
 ]
