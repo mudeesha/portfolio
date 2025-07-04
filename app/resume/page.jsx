@@ -66,13 +66,7 @@ const education = {
     },
     {
       institution: "Spring Boot Academy (Sri Lanka)",
-      description: "Completed hands-on courses in Spring Boot, RESTful APIs, and full-stack development using modern frameworks, with practical project-based experience.",
-      title: "Spring Boot Academy – Professional Training",
-      duration: "2025"
-    },
-    {
-      institution: "Spring Boot Academy (Sri Lanka)",
-      description: "Completed hands-on courses in Spring Boot, RESTful APIs, and full-stack development using modern frameworks, with practical project-based experience.",
+      description: "Completed hands-on courses in full-stack development using Spring Boot and Angular, with a focus on RESTful APIs and real-world project implementation.",
       title: "Spring Boot Academy – Professional Training",
       duration: "2025"
     },
