@@ -14,10 +14,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Mudeesha Tharindu Dilshan | Full Stack Software Engineer",
-  description: "Explore the portfolio of Mudeesha Tharindu Dilshan – a passionate full stack developer skilled in modern technologies. View projects, skills, and get in touch.",
+  title: "Mudeesha Tharindu Dilshan: Portfolio",
+  description: "Portfolio of Mudeesha Tharindu Dilshan with projects, skills, and experience.",
+  alternates: {
+    canonical: "https://mudeesha-portfolio.vercel.app",
+  },
 };
-
 
 export default function RootLayout({ children }) {
   return (

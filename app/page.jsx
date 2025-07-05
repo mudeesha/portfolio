@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 export const metadata = {
-  title: "About | Mudeesha",
-  description: "Learn more about Mudeesha and professional background",
+  title: "Mudeesha Tharindu Dilshan: Software Engineer",
+  description: "Portfolio of Mudeesha Tharindu Dilshan with projects, skills, and experience.",
   alternates: {
     canonical: "https://mudeesha-portfolio.vercel.app",
   },
