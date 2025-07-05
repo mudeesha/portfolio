@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mudeesha-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://mudeesha-portfolio.vercel.app/sitemap.xml
